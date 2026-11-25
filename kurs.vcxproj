@@ -130,17 +130,10 @@
   <ItemGroup>
     <ClCompile Include="kurs.cpp" />
     <ClCompile Include="CppSolver.cpp" />
-    <ClCompile Include="sqlite3.c" />
-    <ClCompile Include="SqlSolver.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\Downloads\sqlite-amalgamation-3510300\sqlite-amalgamation-3510300\sqlite3.h" />
     <ClInclude Include="CppSolver.h" />
     <ClInclude Include="PathNode.h" />
-    <ClInclude Include="SqlSolver.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="plot_results.py" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
